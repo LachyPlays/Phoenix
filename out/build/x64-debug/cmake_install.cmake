@@ -34,6 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/third_party/cmake_install.cmake")
   include("C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/src/cmake_install.cmake")
 
 endif()
