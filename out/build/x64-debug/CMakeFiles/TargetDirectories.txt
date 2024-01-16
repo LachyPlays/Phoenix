@@ -27,3 +27,8 @@ C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/src/CMakeFiles/rebuild_c
 C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/src/CMakeFiles/list_install_components.dir
 C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/src/CMakeFiles/install.dir
 C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/src/CMakeFiles/install/local.dir
+C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/src/vk/CMakeFiles/edit_cache.dir
+C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/src/vk/CMakeFiles/rebuild_cache.dir
+C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/src/vk/CMakeFiles/list_install_components.dir
+C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/src/vk/CMakeFiles/install.dir
+C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/src/vk/CMakeFiles/install/local.dir

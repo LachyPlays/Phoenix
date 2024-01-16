@@ -75,6 +75,10 @@
 				},
 				{
 					"build" : "src",
+					"childIndexes" : 
+					[
+						5
+					],
 					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
 					"minimumCMakeVersion" : 
 					{
@@ -87,6 +91,17 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "src/vk",
+					"jsonFile" : "directory-src.vk-Debug-bd94f86f1e856eef2835.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/vk"
 				}
 			],
 			"name" : "Debug",
@@ -101,7 +116,8 @@
 					[
 						0,
 						1,
-						4
+						4,
+						5
 					],
 					"name" : "Phoenix",
 					"targetIndexes" : 
@@ -130,7 +146,7 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "Phoenix::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Phoenix-Debug-95c7150a458154998d22.json",
+					"jsonFile" : "target-Phoenix-Debug-aeec31299cd65020ed9a.json",
 					"name" : "Phoenix",
 					"projectIndex" : 0
 				},

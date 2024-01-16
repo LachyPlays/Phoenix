@@ -6,9 +6,13 @@
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
 
+#include "phoenix.hpp"
+
 #include <iostream>
 
 int main()
 {
+	Phoenix::Renderer renderer();
+
 	return 0;
 }
