@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/munda/source/repos/Phoenix/third_party/glfw/src
+# Install script for directory: C:/Users/munda/source/repos/Initium/third_party/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/munda/source/repos/Phoenix/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/munda/source/repos/Initium/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,7 +32,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/third_party/glfw/src/glfw3.lib")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/munda/source/repos/Initium/out/build/x64-debug/third_party/glfw/src/glfw3.lib")
 endif()
 

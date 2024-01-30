@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/third_party/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/third_party/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/munda/source/repos/Initium/out/build/x64-debug/third_party/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/munda/source/repos/Initium/out/build/x64-debug/third_party/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/munda/source/repos/Phoenix/out/build/x64-debug/third_party/glfw/install_manifest.txt" files)
+file(READ "C:/Users/munda/source/repos/Initium/out/build/x64-debug/third_party/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
